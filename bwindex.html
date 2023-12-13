@@ -19,6 +19,26 @@
 // preload images:
 if (document.images) {
 
+up_chase=new Image();
+up_chase.src="buttons/up/bw/chase.gif";
+down_chase=new Image();
+down_chase.src="buttons/down/chase.gif";
+
+up_lloyds=new Image();
+up_lloyds.src="buttons/up/bw/lloyds.gif";
+down_lloyds=new Image();
+down_lloyds.src="buttons/down/lloyds.gif";
+
+up_mands=new Image();
+up_mands.src="buttons/up/bw/mands.gif";
+down_mands=new Image();
+down_mands.src="buttons/down/mands.gif";
+
+up_virginmoney=new Image();
+up_virginmoney.src="buttons/up/bw/virginmoney.gif";
+down_virginmoney=new Image();
+down_virginmoney.src="buttons/down/virginmoney.gif";
+
 up_amex=new Image();
 up_amex.src="buttons/up/bw/amex.gif";
 down_amex=new Image();
@@ -515,28 +535,25 @@ document.images[imageID].src = eval(objectName + ".src");
 				SRC="buttons/up/bw/wiki.gif" NAME="wiki" HEIGHT="38"></A></P></TD> 
 		  <TD VALIGN="TOP" ALIGN="CENTER" BGCOLOR="#EEEEEE"> 
 			 <P ALIGN="center"><A
-				HREF="https://login.iso.org/portal/"
-				ONMOUSEOVER="return MouseOver('iso','down_iso')"
-				ONMOUSEOUT="MouseOut('iso','up_iso')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
-				SRC="buttons/up/bw/iso.gif" NAME="iso"></A></P> 
-			 <P ALIGN="center"><A HREF="http://www.npl.co.uk/"
-				ONMOUSEOVER="return MouseOver('npl','down_npl')"
-				ONMOUSEOUT="MouseOut('npl','up_npl')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
-				SRC="buttons/up/bw/npl.gif" NAME="npl"></A></P> 
-			 <P ALIGN="center"><A HREF="https://outlook.office365.com"
-				ONMOUSEOVER="return MouseOver('nplmail','down_nplmail')"
-				ONMOUSEOUT="MouseOut('nplmail','up_nplmail')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/bw/nplmail.gif" NAME="nplmail"
-				ALT="To access NPL e-mail"></A></P> 
-			 <P ALIGN="center"><A HREF="work.html"
-				ONMOUSEOVER="return MouseOver('links','down_links')"
-				ONMOUSEOUT="MouseOut('links','up_links')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/bw/links.gif" NAME="links"></A></P> 
-			 <P ALIGN="center"><A
 				HREF="https://www.americanexpress.com/uk/"
 				ONMOUSEOVER="return MouseOver('amex','down_amex')"
 				ONMOUSEOUT="MouseOut('amex','up_amex')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/bw/amex.gif" NAME="amex"></A></P> 
+				HEIGHT="38" SRC="buttons/up/bw/amex.gif" NAME="amex"></A></P>
+			 <P ALIGN="center"><A
+				HREF="https://www.chase.co.uk/gb/en/"
+				ONMOUSEOVER="return MouseOver('chase','down_chase')"
+				ONMOUSEOUT="MouseOut('chase','up_chase')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/chase.gif" NAME="chase"></A></P>
+			 <P ALIGN="center"><A
+				HREF="https://www.lloydsbank.com/"
+				ONMOUSEOVER="return MouseOver('lloyds','down_lloyds')"
+				ONMOUSEOUT="MouseOut('lloyds','up_lloyds')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/lloyds.gif" NAME="lloyds"></A></P>
+			 <P ALIGN="center"><A
+				HREF="https://bank.marksandspencer.com/"
+				ONMOUSEOVER="return MouseOver('mands','down_mands')"
+				ONMOUSEOUT="MouseOut('mands','up_mands')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/mands.gif" NAME="mands"></A></P>
 			 <P ALIGN="center"><A HREF="https://www.mbna.co.uk/managing-your-account/"
 				ONMOUSEOVER="return MouseOver('mbna','down_mbna')"
 				ONMOUSEOUT="MouseOut('mbna','up_mbna')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
@@ -554,7 +571,12 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('abbey','down_abbey')"
 				ONMOUSEOUT="MouseOut('abbey','up_abbey')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/bw/abbey.gif" ALT="Santander e-banking"
-				NAME="abbey"></A></P></TD> 
+				NAME="abbey"></A></P>
+			 <P ALIGN="center"><A
+				HREF="https://uk.virginmoney.com/"
+				ONMOUSEOVER="return MouseOver('virginmoney','down_virginmoney')"
+				ONMOUSEOUT="MouseOut('virginmoney','up_virginmoney')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/virginmoney.gif" NAME="virginmoney"></A></P></TD> 
 		  <TD VALIGN="TOP" ALIGN="CENTER" BGCOLOR="#EEEEEE"> 
 			 <P ALIGN="center"><A HREF="http://www.amazon.co.uk/"
 				ONMOUSEOVER="return MouseOver('amazon','down_amazon')"
@@ -661,6 +683,24 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOUT="MouseOut('youtube','up_youtube')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/bw/youtube.gif" NAME="youtube"></A></P></TD> 
 		  <TD VALIGN="TOP" ALIGN="CENTER" BGCOLOR="#EEEEEE"> 
+			 <P ALIGN="center"><A
+				HREF="https://login.iso.org/portal/"
+				ONMOUSEOVER="return MouseOver('iso','down_iso')"
+				ONMOUSEOUT="MouseOut('iso','up_iso')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
+				SRC="buttons/up/bw/iso.gif" NAME="iso"></A></P> 
+			 <P ALIGN="center"><A HREF="http://www.npl.co.uk/"
+				ONMOUSEOVER="return MouseOver('npl','down_npl')"
+				ONMOUSEOUT="MouseOut('npl','up_npl')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
+				SRC="buttons/up/bw/npl.gif" NAME="npl"></A></P> 
+			 <P ALIGN="center"><A HREF="https://outlook.office365.com"
+				ONMOUSEOVER="return MouseOver('nplmail','down_nplmail')"
+				ONMOUSEOUT="MouseOut('nplmail','up_nplmail')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/nplmail.gif" NAME="nplmail"
+				ALT="To access NPL e-mail"></A></P> 
+			 <P ALIGN="center"><A HREF="work.html"
+				ONMOUSEOVER="return MouseOver('links','down_links')"
+				ONMOUSEOUT="MouseOut('links','up_links')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/links.gif" NAME="links"></A></P> 
 			 <P ALIGN="center"><A HREF="https://www.thetimes.co.uk/puzzleclub/crosswordclub/"
 				ONMOUSEOVER="return MouseOver('timescc','down_timescc')"
 				ONMOUSEOUT="MouseOut('timescc','up_timescc')"><IMG BORDER="0" WIDTH="125"
