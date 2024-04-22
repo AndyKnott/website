@@ -19,6 +19,11 @@
 // preload images:
 if (document.images) {
 
+up_wealthify=new Image();
+up_wealthify.src="buttons/up/wealthify.gif";
+down_wealthify=new Image();
+down_wealthify.src="buttons/down/wealthify.gif";
+
 up_chase=new Image();
 up_chase.src="buttons/up/chase.gif";
 down_chase=new Image();
@@ -576,7 +581,12 @@ document.images[imageID].src = eval(objectName + ".src");
 				HREF="https://uk.virginmoney.com/"
 				ONMOUSEOVER="return MouseOver('virginmoney','down_virginmoney')"
 				ONMOUSEOUT="MouseOut('virginmoney','up_virginmoney')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/virginmoney.gif" NAME="virginmoney"></A></P></TD> 
+				HEIGHT="38" SRC="buttons/up/virginmoney.gif" NAME="virginmoney"></A></P>
+			 <P ALIGN="center"><A
+				HREF="https://www.wealthify.com/"
+				ONMOUSEOVER="return MouseOver('wealthify','down_wealthify')"
+				ONMOUSEOUT="MouseOut('wealthify','up_wealthify')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/wealthify.gif" NAME="wealthify"></A></P></TD> 
 		  <TD VALIGN="TOP" ALIGN="CENTER" BGCOLOR="#EEEEEE"> 
 			 <P ALIGN="center"><A HREF="http://www.amazon.co.uk/"
 				ONMOUSEOVER="return MouseOver('amazon','down_amazon')"
