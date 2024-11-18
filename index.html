@@ -19,6 +19,11 @@
 // preload images:
 if (document.images) {
 
+up_bluesky=new Image();
+up_bluesky.src="buttons/up/bluesky.gif";
+down_bluesky=new Image();
+down_bluesky.src="buttons/down/bluesky.gif";
+
 up_strava=new Image();
 up_strava.src="buttons/up/strava.gif";
 down_strava=new Image();
@@ -626,6 +631,10 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOUT="MouseOut('zoopla','up_zoopla')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/zoopla.gif" NAME="zoopla"></A></P></TD> 
 		  <TD VALIGN="TOP" ALIGN="CENTER" BGCOLOR="#EEEEEE"> 
+			 <P ALIGN="CENTER"><A HREF="https://bsky.app/"
+				ONMOUSEOVER="return MouseOver('bluesky','down_bluesky')"
+				ONMOUSEOUT="MouseOut('bluesky','up_bluesky')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bluesky.gif" NAME="bluesky"></A></P>
 			 <P ALIGN="CENTER"><A HREF="https://www.britishairways.com/travel/echome/execclub/_gf/en_gb?source=MNVEXC3_my_executive_club"
 				ONMOUSEOVER="return MouseOver('ba','down_ba')"
 				ONMOUSEOUT="MouseOut('ba','up_ba')"><IMG BORDER="0" WIDTH="125"
