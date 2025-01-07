@@ -19,6 +19,11 @@
 // preload images:
 if (document.images) {
 
+up_substack=new Image();
+up_substack.src="buttons/up/substack.gif";
+down_substack=new Image();
+down_substack.src="buttons/down/substack.gif";
+
 up_bluesky=new Image();
 up_bluesky.src="buttons/up/bluesky.gif";
 down_bluesky=new Image();
@@ -601,7 +606,11 @@ document.images[imageID].src = eval(objectName + ".src");
 			 <P ALIGN="center"><A HREF="http://www.amazon.co.uk/"
 				ONMOUSEOVER="return MouseOver('amazon','down_amazon')"
 				ONMOUSEOUT="MouseOut('amazon','up_amazon')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/amazon.gif" NAME="amazon"></A></P> 
+				HEIGHT="38" SRC="buttons/up/amazon.gif" NAME="amazon"></A></P>
+			 <P ALIGN="CENTER"><A HREF="https://www.britishairways.com/travel/echome/execclub/_gf/en_gb?source=MNVEXC3_my_executive_club"
+				ONMOUSEOVER="return MouseOver('ba','down_ba')"
+				ONMOUSEOUT="MouseOut('ba','up_ba')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/ba.gif" NAME="ba"></A></P>
 			 <P ALIGN="center"><A HREF="http://pages.ebay.co.uk"
 				ONMOUSEOVER="return MouseOver('ebay','down_ebay')"
 				ONMOUSEOUT="MouseOut('ebay','up_ebay')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
@@ -635,10 +644,6 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('bluesky','down_bluesky')"
 				ONMOUSEOUT="MouseOut('bluesky','up_bluesky')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/bluesky.gif" NAME="bluesky"></A></P>
-			 <P ALIGN="CENTER"><A HREF="https://www.britishairways.com/travel/echome/execclub/_gf/en_gb?source=MNVEXC3_my_executive_club"
-				ONMOUSEOVER="return MouseOver('ba','down_ba')"
-				ONMOUSEOUT="MouseOut('ba','up_ba')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/ba.gif" NAME="ba"></A></P>
 			 <P ALIGN="CENTER"><A HREF="http://www.facebook.com/home.php"
 				ONMOUSEOVER="return MouseOver('facebook','down_facebook')"
 				ONMOUSEOUT="MouseOut('facebook','up_facebook')"><IMG BORDER="0" WIDTH="125"
@@ -658,15 +663,15 @@ document.images[imageID].src = eval(objectName + ".src");
 			 <P ALIGN="CENTER"><A HREF="http://www.reddit.com/"
 				ONMOUSEOVER="return MouseOver('reddit','down_reddit')"
 				ONMOUSEOUT="MouseOut('reddit','up_reddit')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/reddit.gif" NAME="reddit"></A></P> 
+				HEIGHT="38" SRC="buttons/up/reddit.gif" NAME="reddit"></A></P>
+			 <P ALIGN="CENTER"><A HREF="https://substack.com/home"
+				ONMOUSEOVER="return MouseOver('substack','down_substack')"
+				ONMOUSEOUT="MouseOut('substack','up_substack')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/substack.gif" NAME="substack"></A></P>
 			 <P ALIGN="center"><A HREF="http://www.threads.net"
 				ONMOUSEOVER="return MouseOver('threads','down_threads')"
 				ONMOUSEOUT="MouseOut('threads','up_threads')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/threads.gif" NAME="threads"></A></P>
-			 <P ALIGN="center"><A HREF="http://www.tumblr.com/dashboard"
-				ONMOUSEOVER="return MouseOver('tumblr','down_tumblr')"
-				ONMOUSEOUT="MouseOut('tumblr','up_tumblr')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/tumblr.gif" NAME="tumblr"></A></P>
 			 <P ALIGN="center"><A HREF="https://web.whatsapp.com/"
 				ONMOUSEOVER="return MouseOver('whatsapp','down_whatsapp')"
 				ONMOUSEOUT="MouseOut('whatsapp','up_whatsapp')"><IMG BORDER="0" WIDTH="125"
