@@ -19,6 +19,11 @@
 // preload images:
 if (document.images) {
 
+up_royalcar=new Image();
+up_royalcar.src="buttons/up/bw/royalcar.gif";
+down_royalcar=new Image();
+down_royalcar.src="buttons/down/royalcar.gif";
+
 up_substack=new Image();
 up_substack.src="buttons/up/bw/substack.gif";
 down_substack=new Image();
@@ -44,16 +49,6 @@ up_chase.src="buttons/up/bw/chase.gif";
 down_chase=new Image();
 down_chase.src="buttons/down/chase.gif";
 
-up_lloyds=new Image();
-up_lloyds.src="buttons/up/bw/lloyds.gif";
-down_lloyds=new Image();
-down_lloyds.src="buttons/down/lloyds.gif";
-
-up_mands=new Image();
-up_mands.src="buttons/up/bw/mands.gif";
-down_mands=new Image();
-down_mands.src="buttons/down/mands.gif";
-
 up_virginmoney=new Image();
 up_virginmoney.src="buttons/up/bw/virginmoney.gif";
 down_virginmoney=new Image();
@@ -73,11 +68,6 @@ up_sky=new Image();
 up_sky.src="buttons/up/bw/sky.gif";
 down_sky=new Image();
 down_sky.src="buttons/down/sky.gif";
-
-up_fantasy=new Image();
-up_fantasy.src="buttons/up/bw/fantasy.gif";
-down_fantasy=new Image();
-down_fantasy.src="buttons/down/fantasy.gif";
 
 up_github=new Image();
 up_github.src="buttons/up/bw/github.gif";
@@ -129,16 +119,6 @@ up_evans.src="buttons/up/bw/evans.gif";
 down_evans=new Image();
 down_evans.src="buttons/down/evans.gif";
 
-up_pinterest=new Image();
-up_pinterest.src="buttons/up/bw/pinterest.gif";
-down_pinterest=new Image();
-down_pinterest.src="buttons/down/pinterest.gif";
-
-up_opodo=new Image();
-up_opodo.src="buttons/up/bw/opodo.gif";
-down_opodo=new Image();
-down_opodo.src="buttons/down/opodo.gif";
-
 up_onelook=new Image();
 up_onelook.src="buttons/up/bw/onelook.gif";
 down_onelook=new Image();
@@ -184,11 +164,6 @@ up_xwords.src="buttons/up/bw/xwords.gif";
 down_xwords=new Image();
 down_xwords.src="buttons/down/xwords.gif";
 
-up_tumblr=new Image();
-up_tumblr.src="buttons/up/bw/tumblr.gif";
-down_tumblr=new Image();
-down_tumblr.src="buttons/down/tumblr.gif";
-
 up_plex=new Image();
 up_plex.src="buttons/up/bw/plex.gif";
 down_plex=new Image();
@@ -223,11 +198,6 @@ up_rbs=new Image();
 up_rbs.src="buttons/up/bw/rbs.gif";
 down_rbs=new Image();
 down_rbs.src="buttons/down/rbs.gif";
-
-up_facebook=new Image();
-up_facebook.src="buttons/up/bw/facebook.gif";
-down_facebook=new Image();
-down_facebook.src="buttons/down/facebook.gif";
 
 up_bbcnews=new Image();
 up_bbcnews.src="buttons/up/bw/bbcnews.gif";
@@ -274,11 +244,6 @@ up_skysport.src="buttons/up/bw/skysport.gif";
 down_skysport=new Image();
 down_skysport.src="buttons/down/skysport.gif";
 
-up_webmail=new Image();
-up_webmail.src="buttons/up/bw/webmail.gif";
-down_webmail=new Image();
-down_webmail.src="buttons/down/webmail.gif";
-
 up_winesoc=new Image();
 up_winesoc.src="buttons/up/bw/winesoc.gif";
 down_winesoc=new Image();
@@ -293,21 +258,6 @@ up_hmhb=new Image();
 up_hmhb.src="buttons/up/bw/hmhb.gif";
 down_hmhb=new Image();
 down_hmhb.src="buttons/down/hmhb.gif";
-
-up_qonline=new Image();
-up_qonline.src="buttons/up/bw/qonline.gif";
-down_qonline=new Image();
-down_qonline.src="buttons/down/qonline.gif";
-
-up_rstone=new Image();
-up_rstone.src="buttons/up/bw/rstone.gif";
-down_rstone=new Image();
-down_rstone.src="buttons/down/rstone.gif";
-
-up_mbna=new Image();
-up_mbna.src="buttons/up/bw/mbna.gif";
-down_mbna=new Image();
-down_mbna.src="buttons/down/mbna.gif";
 
 up_abbey=new Image();
 up_abbey.src="buttons/up/bw/abbey.gif";
@@ -328,11 +278,6 @@ up_bbcradio=new Image();
 up_bbcradio.src="buttons/up/bw/bbcradio.gif";
 down_bbcradio=new Image();
 down_bbcradio.src="buttons/down/bbcradio.gif";
-
-up_ebay=new Image();
-up_ebay.src="buttons/up/bw/ebay.gif";
-down_ebay=new Image();
-down_ebay.src="buttons/down/ebay.gif";
 
 up_ba=new Image();
 up_ba.src="buttons/up/bw/ba.gif";
@@ -373,11 +318,6 @@ up_results=new Image();
 up_results.src="buttons/up/bw/lottery.gif";
 down_results=new Image();
 down_results.src="buttons/down/lottery.gif";
-
-up_threads=new Image();
-up_threads.src="buttons/up/bw/threads.gif";
-down_threads=new Image();
-down_threads.src="buttons/down/threads.gif";
 
 up_npl=new Image();
 up_npl.src="buttons/up/bw/npl.gif";
@@ -605,6 +545,10 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('ocado','down_ocado')"
 				ONMOUSEOUT="MouseOut('ocado','up_ocado')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/bw/ocado.gif" NAME="ocado"></A></P> 
+			 <P ALIGN="center"><A HREF="https://www.royalcaribbean.com/gbr/en"
+				ONMOUSEOVER="return MouseOver('royalcar','down_royalcar')"
+				ONMOUSEOUT="MouseOut('royalcar','up_royalcar')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/royalcar.gif" NAME="royalcar"></A></P> 
 			 <P ALIGN="CENTER"><A HREF="http://www.thewinesociety.com/"
 				ONMOUSEOVER="return MouseOver('winesoc','down_winesoc')"
 				ONMOUSEOUT="MouseOut('winesoc','up_winesoc')"><IMG BORDER="0" WIDTH="125"
