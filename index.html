@@ -19,6 +19,11 @@
 // preload images:
 if (document.images) {
 
+up_now=new Image();
+up_now.src="buttons/up/now.gif";
+down_now=new Image();
+down_now.src="buttons/down/now.gif";
+
 up_ee=new Image();
 up_ee.src="buttons/up/ee.gif";
 down_ee=new Image();
@@ -604,6 +609,10 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('netflix','down_netflix')"
 				ONMOUSEOUT="MouseOut('netflix','up_netflix')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/netflix.gif" NAME="netflix"></A></P> 
+			 <P ALIGN="center"><A HREF="https://www.nowtv.com/"
+				ONMOUSEOVER="return MouseOver('now','down_now')"
+				ONMOUSEOUT="MouseOut('now','up_now')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/now.gif" NAME="now"></A></P> 
 			 <P ALIGN="center"><A
 				HREF="https://app.plex.tv/web/app"
 				ONMOUSEOVER="return MouseOver('plex','down_plex')"
