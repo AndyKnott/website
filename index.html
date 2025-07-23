@@ -19,6 +19,11 @@
 // preload images:
 if (document.images) {
 
+up_disco=new Image();
+up_disco.src="buttons/up/disco.gif";
+down_disco=new Image();
+down_disco.src="buttons/down/disco.gif";
+
 up_now=new Image();
 up_now.src="buttons/up/now.gif";
 down_now=new Image();
@@ -597,6 +602,10 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('appletv','down_appletv')"
 				ONMOUSEOUT="MouseOut('appletv','up_appletv')"><IMG BORDER="0" WIDTH="125"
 				SRC="buttons/up/appletv.gif" NAME="appletv" HEIGHT="38"></A></P>
+			 <P ALIGN="center"><A HREF="https://www.discoveryplus.com"
+				ONMOUSEOVER="return MouseOver('disco','down_disco')"
+				ONMOUSEOUT="MouseOut('disco','up_disco')"><IMG BORDER="0" WIDTH="125"
+				SRC="buttons/up/disco.gif" NAME="disco" HEIGHT="38"></A></P>
 			 <P ALIGN="center"><A HREF="http://www.disneyplus.com"
 				ONMOUSEOVER="return MouseOver('disney','down_disney')"
 				ONMOUSEOUT="MouseOut('disney','up_disney')"><IMG BORDER="0" WIDTH="125"
