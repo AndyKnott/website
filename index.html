@@ -19,6 +19,11 @@
 // preload images:
 if (document.images) {
 
+up_lg=new Image();
+up_lg.src="buttons/up/lg.gif";
+down_lg=new Image();
+down_lg.src="buttons/down/lg.gif";
+
 up_disco=new Image();
 up_disco.src="buttons/up/disco.gif";
 down_disco=new Image();
@@ -515,6 +520,11 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('chase','down_chase')"
 				ONMOUSEOUT="MouseOut('chase','up_chase')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/chase.gif" NAME="chase"></A></P>
+			 <P ALIGN="center"><A
+				HREF="https://auth.landg.com//"
+				ONMOUSEOVER="return MouseOver('chase','down_lg')"
+				ONMOUSEOUT="MouseOut('lg','up_lg')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/lg.gif" NAME="lg"></A></P>
 			 <P ALIGN="center"><A HREF="https://onlinebanking.nationwide.co.uk/AccessManagement/Login"
 				ONMOUSEOVER="return MouseOver('nationwide','down_nationwide')"
 				ONMOUSEOUT="MouseOut('nationwide','up_nationwide')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
