@@ -19,6 +19,11 @@
 // preload images:
 if (document.images) {
 
+up_postale=new Image();
+up_postale.src="buttons/up/bw/postale.gif";
+down_postale=new Image();
+down_postale.src="buttons/down/postale.gif";
+
 up_goocal=new Image();
 up_goocal.src="buttons/up/bw/goocal.gif";
 down_goocal=new Image();
@@ -88,11 +93,6 @@ up_appletv=new Image();
 up_appletv.src="buttons/up/bw/appletv.gif";
 down_appletv=new Image();
 down_appletv.src="buttons/down/appletv.gif";
-
-up_sky=new Image();
-up_sky.src="buttons/up/bw/sky.gif";
-down_sky=new Image();
-down_sky.src="buttons/down/sky.gif";
 
 up_github=new Image();
 up_github.src="buttons/up/bw/github.gif";
@@ -239,11 +239,6 @@ up_guardian.src="buttons/up/bw/guardian.gif";
 down_guardian=new Image();
 down_guardian.src="buttons/down/guardian.gif";
 
-up_newsci=new Image();
-up_newsci.src="buttons/up/bw/newsci.gif";
-down_newsci=new Image();
-down_newsci.src="buttons/down/newsci.gif";
-
 up_theonion=new Image();
 up_theonion.src="buttons/up/bw/theonion.gif";
 down_theonion=new Image();
@@ -263,11 +258,6 @@ up_cricinfo=new Image();
 up_cricinfo.src="buttons/up/bw/cricinfo.gif";
 down_cricinfo=new Image();
 down_cricinfo.src="buttons/down/cricinfo.gif";
-
-up_skysport=new Image();
-up_skysport.src="buttons/up/bw/skysport.gif";
-down_skysport=new Image();
-down_skysport.src="buttons/down/skysport.gif";
 
 up_winesoc=new Image();
 up_winesoc.src="buttons/up/bw/winesoc.gif";
@@ -339,20 +329,15 @@ up_natrail.src="buttons/up/bw/natrail.gif";
 down_natrail=new Image();
 down_natrail.src="buttons/down/natrail.gif";
 
-up_results=new Image();
-up_results.src="buttons/up/bw/lottery.gif";
-down_results=new Image();
-down_results.src="buttons/down/lottery.gif";
+up_lottery=new Image();
+up_lottery.src="buttons/up/bw/lottery.gif";
+down_lottery=new Image();
+down_lottery.src="buttons/down/lottery.gif";
 
 up_npl=new Image();
 up_npl.src="buttons/up/bw/npl.gif";
 down_npl=new Image();
 down_npl.src="buttons/down/npl.gif";
-
-up_nplmail=new Image();
-up_nplmail.src="buttons/up/bw/nplmail.gif";
-down_nplmail=new Image();
-down_nplmail.src="buttons/down/nplmail.gif";
 
 up_links=new Image();
 up_links.src="buttons/up/bw/links.gif";
@@ -527,9 +512,9 @@ document.images[imageID].src = eval(objectName + ".src");
 				HEIGHT="38" SRC="buttons/up/bw/lg.gif" NAME="lg"></A></P>
 			 <P ALIGN="center"><A
 				HREF="https://www.national-lottery.co.uk/"
-				ONMOUSEOVER="return MouseOver('results','down_results')"
-				ONMOUSEOUT="MouseOut('results','up_results')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/bw/lottery.gif" NAME="results"></A></P> 
+				ONMOUSEOVER="return MouseOver('lottery','down_lottery')"
+				ONMOUSEOUT="MouseOut('lottery','up_lottery')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/lottery.gif" NAME="lottery"></A></P> 
 			 <P ALIGN="center"><A HREF="https://onlinebanking.nationwide.co.uk/AccessManagement/Login"
 				ONMOUSEOVER="return MouseOver('nationwide','down_nationwide')"
 				ONMOUSEOUT="MouseOut('nationwide','up_nationwide')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
@@ -600,6 +585,10 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('linked','down_linked')"
 				ONMOUSEOUT="MouseOut('linked','up_linked')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/bw/linked.gif" NAME="linked"></A></P> 
+			 <P ALIGN="CENTER"><A HREF="https://postale.io/webmail/?_task=mail&_mbox=INBOX"
+				ONMOUSEOVER="return MouseOver('postale','down_postale')"
+				ONMOUSEOUT="MouseOut('postale','up_postale')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/postale.gif" NAME="postale"></A></P> 
 			 <P ALIGN="CENTER"><A HREF="http://www.reddit.com/"
 				ONMOUSEOVER="return MouseOver('reddit','down_reddit')"
 				ONMOUSEOUT="MouseOut('reddit','up_reddit')"><IMG BORDER="0" WIDTH="125"
@@ -642,10 +631,6 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('plex','down_plex')"
 				ONMOUSEOUT="MouseOut('plex','up_plex')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
 				SRC="buttons/up/bw/plex.gif" NAME="plex"></A></P> 
-			 <P ALIGN="center"><A HREF="https://www.sky.com/mysky"
-				ONMOUSEOVER="return MouseOver('sky','down_sky')"
-				ONMOUSEOUT="MouseOut('sky','up_sky')"><IMG BORDER="0" WIDTH="125"
-				SRC="buttons/up/bw/sky.gif" NAME="sky" HEIGHT="38"></A></P>
 			 <P ALIGN="center"><A HREF="http://www.youtube.com/"
 				ONMOUSEOVER="return MouseOver('youtube','down_youtube')"
 				ONMOUSEOUT="MouseOut('youtube','up_youtube')"><IMG BORDER="0" WIDTH="125"
