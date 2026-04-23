@@ -19,6 +19,11 @@
 // preload images:
 if (document.images) {
 
+up_goocal=new Image();
+up_goocal.src="buttons/up/bw/goocal.gif";
+down_goocal=new Image();
+down_goocal.src="buttons/down/goocal.gif";
+
 up_lg=new Image();
 up_lg.src="buttons/up/bw/lg.gif";
 down_lg=new Image();
@@ -474,6 +479,10 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('google','down_google')"
 				ONMOUSEOUT="MouseOut('google','up_google')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/bw/google.gif" NAME="google"></A></P> 
+			 <P ALIGN="CENTER"><A HREF="https://calendar.google.com/"
+				ONMOUSEOVER="return MouseOver('goocal','down_goocal')"
+				ONMOUSEOUT="MouseOut('goocal','up_goocal')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/goocal.gif" NAME="goocal"></A></P> 
 			 <P ALIGN="center"><A
 				HREF="https://drive.google.com/?tab=wo&authuser=0#my-drive"
 				ONMOUSEOVER="return MouseOver('drive','down_drive')"
@@ -492,19 +501,10 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOUT="MouseOut('imdb','up_imdb')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
 				SRC="buttons/up/bw/imdb.gif" NAME="imdb"></A></P> 
 			 <P ALIGN="center"><A
-				HREF="https://www.national-lottery.co.uk/"
-				ONMOUSEOVER="return MouseOver('results','down_results')"
-				ONMOUSEOUT="MouseOut('results','up_results')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/bw/lottery.gif" NAME="results"></A></P> 
-			 <P ALIGN="center"><A
 				HREF="http://www.nationalrail.co.uk/default.aspx"
 				ONMOUSEOVER="return MouseOver('natrail','down_natrail')"
 				ONMOUSEOUT="MouseOut('natrail','up_natrail')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/bw/natrail.gif" NAME="natrail"></A></P> 			 
-			<P ALIGN="center"><A HREF="http://www.onelook.com/"
-				ONMOUSEOVER="return MouseOver('onelook','down_onelook')"
-				ONMOUSEOUT="MouseOut('onelook','up_onelook')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/bw/onelook.gif" NAME="onelook"></A></P>
 			 <P ALIGN="center"><A HREF="http://en.wikipedia.org"
 				ONMOUSEOVER="return MouseOver('wiki','down_wiki')"
 				ONMOUSEOUT="MouseOut('wiki','up_wiki')"><IMG BORDER="0" WIDTH="125"
@@ -525,6 +525,11 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('lg','down_lg')"
 				ONMOUSEOUT="MouseOut('lg','up_lg')"><IMG BORDER="0" WIDTH="125"
 				HEIGHT="38" SRC="buttons/up/bw/lg.gif" NAME="lg"></A></P>
+			 <P ALIGN="center"><A
+				HREF="https://www.national-lottery.co.uk/"
+				ONMOUSEOVER="return MouseOver('results','down_results')"
+				ONMOUSEOUT="MouseOut('results','up_results')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/lottery.gif" NAME="results"></A></P> 
 			 <P ALIGN="center"><A HREF="https://onlinebanking.nationwide.co.uk/AccessManagement/Login"
 				ONMOUSEOVER="return MouseOver('nationwide','down_nationwide')"
 				ONMOUSEOUT="MouseOut('nationwide','up_nationwide')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
@@ -655,11 +660,6 @@ document.images[imageID].src = eval(objectName + ".src");
 				ONMOUSEOVER="return MouseOver('npl','down_npl')"
 				ONMOUSEOUT="MouseOut('npl','up_npl')"><IMG BORDER="0" WIDTH="125" HEIGHT="38"
 				SRC="buttons/up/bw/npl.gif" NAME="npl"></A></P> 
-			 <P ALIGN="center"><A HREF="https://outlook.office365.com"
-				ONMOUSEOVER="return MouseOver('nplmail','down_nplmail')"
-				ONMOUSEOUT="MouseOut('nplmail','up_nplmail')"><IMG BORDER="0" WIDTH="125"
-				HEIGHT="38" SRC="buttons/up/bw/nplmail.gif" NAME="nplmail"
-				ALT="To access NPL e-mail"></A></P> 
 			 <P ALIGN="center"><A HREF="work.html"
 				ONMOUSEOVER="return MouseOver('links','down_links')"
 				ONMOUSEOUT="MouseOut('links','up_links')"><IMG BORDER="0" WIDTH="125"
@@ -679,7 +679,11 @@ document.images[imageID].src = eval(objectName + ".src");
 			 <P ALIGN="center"><A HREF="https://www.crosswordsolver.org/forum/"
 				ONMOUSEOVER="return MouseOver('solver','down_solver')"
 				ONMOUSEOUT="MouseOut('solver','up_solver')"><IMG HEIGHT="38"
-				SRC="buttons/up/bw/solver.gif" WIDTH="125" BORDER="0" NAME="solver"></A></P></TD> 
+				SRC="buttons/up/bw/solver.gif" WIDTH="125" BORDER="0" NAME="solver"></A></P>
+			<P ALIGN="center"><A HREF="http://www.onelook.com/"
+				ONMOUSEOVER="return MouseOver('onelook','down_onelook')"
+				ONMOUSEOUT="MouseOut('onelook','up_onelook')"><IMG BORDER="0" WIDTH="125"
+				HEIGHT="38" SRC="buttons/up/bw/onelook.gif" NAME="onelook"></A></P></TD> 
 		</TR> 
 	 </TABLE> </BODY>
 </HTML>
